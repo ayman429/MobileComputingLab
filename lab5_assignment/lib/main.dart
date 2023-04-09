@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: 8),
                         child: Text(
-                          "FLUTTER DEVLOPER",
+                          "FLUTTER DEVELOPER",
                           style: TextStyle(
                             fontFamily: "Roboto",
                             color: Colors.white70,
@@ -80,25 +80,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-/*
- ListView(
-            children: [
-              ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage("assets/images/ayman.jpg"),
-                  radius: 40,
-                ),
-                title: Text("Ayman Mansour",
-                    style:
-                        TextStyle(fontFamily: 'Pacifico', color: Colors.white)),
-                subtitle: Text("FLUTTER DEVLOPER"),
-              ),
-            ],
-          )
-
- */
